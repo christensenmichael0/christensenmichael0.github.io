@@ -1,72 +1,306 @@
 <!DOCTYPE html>
-<html>
-<head>
-  <title>Skillfair</title>
-  <meta charset="utf-8"/>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-  <link href='https://fonts.googleapis.com/css?family=Roboto:300,400,700' rel='stylesheet' type='text/css'>
-  <link rel="stylesheet" type="text/css" href="main.css">
-</head>
-<body>
-  <header class="container">
-    <div class="row">
-      <h1 class="col-sm-4">Skillfair</h1>
-      <nav class="col-sm-8 text-right">
-              <p>newest</p>
-      <p>catalogue</p>
-      <p>contact</p>
-    </nav>
-    </div>
-  </header>
-  <section class="jumbotron">
-    <div class="container">
-      <div class="row text-center">
-        <h2>Homemade Goods</h2>
-      <h3>This Year's Best</h3>
-      <a class="btn btn-primary" href="#" role="button">See all</a>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="description" content="">
+      <meta name="author" content="">
+      <title>Michael K. Christensen
+      </title>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+      <!-- Bootstrap Core CSS -->
+      <!--<link href="css/bootstrap.min.css" rel="stylesheet">-->
+      <!-- Custom CSS -->
+      <link href="css/webpage-stylesheet.css" rel="stylesheet">
+      <!-- Custom Fonts -->
+      <!--
+         <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+            <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+         -->
+      <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+      <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+      <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+      <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+      <![endif]-->
+   </head>
+   <body>
+      <!-- Navigation -->
+      <nav class="navbar navbar-inverse navbar-fixed-top custom-nav" role="navigation">
+         <div class="container">
+            <div class="navbar-header page-scroll">
+               <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mynav">
+               <span class="sr-only">Toggle navigation</span>
+               <span class="icon-bar"></span>
+               <span class="icon-bar"></span>
+               <span class="icon-bar"></span>
+               </button>
+               <a class="navbar-brand page-scroll" href="#home">christensenmichael0.io</a>
+            </div>
+            <div class="collapse navbar-collapse" id="mynav">
+               <ul class="nav navbar-nav navbar-right">
+                  <li>
+                     <a class="page-scroll" href="#about">About</a>
+                  </li>
+                  <li>
+                     <a class="page-scroll" href="#portfolio">Portfolio</a>
+                  </li>
+                  <li>
+                     <a class="page-scroll" href="#contact">Contact</a>
+                  </li>
+               </ul>
+            </div>
+         </div>
+      </nav>
+      <a name="home"></a>
+      <header>
+         <div class="container intro-header-block">
+            <div class="row">
+               <div class="col-sm-12 text-center">
+                  <h1 id="me-brand">Michael K. Christensen</h1>
+                  <h2 id="me-heading">Scientist/Developer</h2>
+               </div>
+            </div>
+            <ul class="list-inline intro-social-buttons">
+               <li>
+                  <a href="https://christensenmichael0.github.io/resume/" class="btn btn-default btn-lg">
+                  <span class="network-name">resume
+                  </span>
+                  </a>
+               </li>
+               <li>
+                  <a href="https://www.linkedin.com/in/christensenmichael0"target="_blank" class="btn btn-default btn-lg">
+                  <span class="network-name">linkedin
+                  </span>
+                  </a>
+               </li>
+               <li>
+                  <a href="https://github.com/christensenmichael0" target="_blank" class="btn btn-default btn-lg">
+                  <span class="network-name">github
+                  </span>
+                  </a>
+               </li>
+            </ul>
+         </div>
+      </header>
+      <a name="about"></a>
+      <section class="intro about-me">
+         <div class="container">
+            <div class="row">
+               <div class="col-sm-12">
+                  <h2>About Me</h2>
+                  <p class="lead">
+                     I'm a tenacious learner and problem solver. My focus is on building robust, reusable, scalable, and optimized software solutions
+                     to solve business challenges. My strong quantitative background, advanced programming skills, and real-world experience
+                     provide me with the tools to approach and overcome obstacles efficiently and effectively.
+                  </p>
+               </div>
+            </div>
+         </div>
+      </section>
+      <div class="container">
+         <hr class="intro-divider">
       </div>
-    </div>
-    
-  </section>
-  <section class="container">
-    <div class="row">
-      <figure class=col-sm-6>
-        <p>kitchen</p>
-        <img src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/kitchen.jpg"/>
-      </figure>
-      <figure class="col-sm-6">
-        <p>woodwork</p>
-        <img src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/woodwork.jpg"/>
-      </figure>
-    </div>
-    <div class="row">
-       <figure class=col-sm-6>
-         <p>gifts</p>
-         <img src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/gifts.jpg"/>
-      </figure>
-      <figure class="col-sm-6">
-        <p>antiques</p>
-        <img src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/antique.jpg"/>
-      </figure>
-    </div>
-  </section>
-  <footer class="container">
-    <div class="row">
-      <p class="col-sm-4">
-        &copy; 2016 Skillfair
-      </p>
-      <ul class="col-sm-8">
-        <li class="col-sm-1"><img src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/instagram.svg"></li>
-  <li class="col-sm-1"><img src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/twitter.svg"></li>
-  <li class="col-sm-1"><img src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/facebook.svg"></li>
-  <li class="col-md-1">
-  <img src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/medium.svg">
-</li>
-      </ul>
-    </div>
-  </footer>
-
-
-
-</body>
+      <a name="portfolio"></a>
+      <div class="container">
+         <div class="row">
+            <div class="col-sm-12">
+               <h2 id="recent-tag">Recent Projects</h2>
+            </div>
+         </div>
+      </div>
+      <section class="projects">
+         <div class="container">
+            <div class="row">
+               <div class="col-sm-4">
+                  <div class="preview-panel">
+                     <a href="https://github.com/christensenmichael0/Titantic_Data_Analysis">
+                     <img src="img/titanic-sinking.jpg" class="img-responsive" alt="Titanic-Image">
+                     </a>
+                     <div class="preview-panel-content">
+                        <h4>Investigate a dataset</h4>
+                        <p>Investigated the <a href="https://d17h27t6h515a5.cloudfront.net/topher/2016/September/57e9a84c_titanic-data/titanic-data.csv" download target="_blank">Titanic dataset</a> using NumPy and Pandas. 
+                           Went through the entire data analysis process, starting by posing a question and finished by sharing findings.
+                           Used vectorized operations in NumPy and Pandas to speed up data analysis code.
+                        </p>
+                        <ul class="list-inline project-buttons">
+                           <li>
+                              <a target="_blank" href="christensenmichael0.github.io/project-pdf/Titanic_Analysis.pdf" class="btn btn-default">
+                              <span class="analysis-button">Analysis
+                              </span>
+                              </a>
+                           </li>
+                           <li>
+                              <a href="https://github.com/christensenmichael0/Titantic_Data_Analysis/blob/master/project_two.py"target="_blank" class="btn btn-default">
+                              <span class="code-button">Code
+                              </span>
+                              </a>
+                           </li>
+                        </ul>
+                     </div>
+                  </div>
+                  <div class="preview-panel">
+                     <a href="/template-overviews/creative">
+                     <img src="img/osm.oakland-640x337.jpg" class="img-responsive" alt="Openstreetmap-Image">
+                     </a>
+                     <div class="preview-panel-content">
+                        <h4>Wrangle OpenStreetMap data</h4>
+                        <p>Utilized data munging techniques to clean OpenStreetMap data for Syracuse, New York.
+                           This entailed assessing the quality of the data for validity, accuracy, completeness, 
+                           consistency and uniformity. 
+                        </p>
+                        <ul class="list-inline project-buttons">
+                           <li>
+                              <a target="_blank" href="christensenmichael0.github.io/project-pdf/OSM_Wrangling.pdf" class="btn btn-default">
+                              <span class="analysis-button">Analysis
+                              </span>
+                              </a>
+                           </li>
+                           <li>
+                              <a href="https://github.com/christensenmichael0/Open_Street_Map_Data_Wrangling/blob/master/syracuse_new_york_osm_project.py"target="_blank" class="btn btn-default">
+                              <span class="code-button">Code
+                              </span>
+                              </a>
+                           </li>
+                        </ul>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-sm-4">
+                  <div class="preview-panel">
+                     <a href="https://github.com/christensenmichael0/Exploratory-Data-Analysis-with-R">
+                     <img src="img/redwine.jpg" class="img-responsive" alt="Red-Wine-Image">
+                     </a>
+                     <div class="preview-panel-content">
+                        <h4>Explore and summarize data</h4>
+                        <p>Used R and apply exploratory data analysis techniques to explore the <a href="https://github.com/christensenmichael0/Exploratory-Data-Analysis-with-R/blob/master/wineQualityReds.csv" download target="_blank">red wine dataset</a> for distributions, outliers, and anomalies.
+                           Determined the relationships in one variable to multiple variables. Created polished graphics using ggplot2 package.
+                        </p>
+                        <ul class="list-inline project-buttons">
+                           <li>
+                              <a target="_blank" href="christensenmichael0.github.io/project-pdf/Red_Wine_Analysis.pdf" class="btn btn-default">
+                              <span class="analysis-button">Analysis
+                              </span>
+                              </a>
+                           </li>
+                           <li>
+                              <a href="https://github.com/christensenmichael0/Exploratory-Data-Analysis-with-R/blob/master/Project_4.Rmd"target="_blank" class="btn btn-default">
+                              <span class="code-button">Code
+                              </span>
+                              </a>
+                           </li>
+                        </ul>
+                     </div>
+                  </div>
+                  <div class="preview-panel">
+                     <a href="https://github.com/christensenmichael0/Machine_Learning_Through_Enron_Fraud">
+                     <img src="img/Enron.jpg" class="img-responsive" alt="Enron-Image">
+                     </a>
+                     <div class="preview-panel-content">
+                        <h4>Identify Fraud from Enron email</h4>
+                        <p>Utilized Python's scikit-learn library to deploy supervised Machine Learning Algorithms on the <a href="https://github.com/christensenmichael0/Machine_Learning_Through_Enron_Fraud/blob/master/my_dataset.pkl" download> Enron financial and email dataset</a> 
+                           to identify persons of interest. Implemented feature scaling and text mining techniques. Made use of recursive feature selection 
+                           and model parameter tuning using exhaustive grid search. Ultimately applied cross-validation operations on testing data to validate
+                           model performance metrics.
+                        </p>
+                        <ul class="list-inline project-buttons">
+                           <li>
+                              <a target="_blank" href="christensenmichael0.github.io/project-pdf/Enron_Analysis.pdf" class="btn btn-default">
+                              <span class="analysis-button">Analysis
+                              </span>
+                              </a>
+                           </li>
+                           <li>
+                              <a href=https://github.com/christensenmichael0/Machine_Learning_Through_Enron_Fraud/blob/master/poi_id.py"target="_blank" class="btn btn-default">
+                              <span class="code-button">Code
+                              </span>
+                              </a>
+                           </li>
+                        </ul>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-sm-4">
+                  <div class="preview-panel">
+                     <a href="https://christensenmichael0.github.io/Data_Viz/" target="_blank">
+                     <img src="img/drunk-driving.jpg" class="img-responsive" alt="Drunk-Driving-Image">
+                     </a>
+                     <div class="preview-panel-content">
+                        <h4>Make effective data visualization</h4>
+                        <p><a href="https://christensenmichael0.github.io/Data_Viz/" target="_blank"> Visualized </a>the incidence of impaired driving death rate by US state using D3.js. Chose optimal visual elements to 
+                           encode data and increase its effectiveness. Incorporated interactive elements to engage the audience.
+                        </p>
+                        <ul class="list-inline project-buttons">
+                           <li>
+                              <a target="_blank" href="christensenmichael0.github.io/project-pdf/Impaired_Driving_Analysis.pdf" class="btn btn-default">
+                              <span class="analysis-button">Analysis
+                              </span>
+                              </a>
+                           </li>
+                           <li>
+                              <a href="https://github.com/christensenmichael0/Data_Visualization_with_d3.js/blob/master/index_final.html" download target="_blank" class="btn btn-default">
+                              <span class="code-button">Code
+                              </span>
+                              </a>
+                           </li>
+                        </ul>
+                     </div>
+                  </div>
+                  <div class="preview-panel">
+                     <a href="https://github.com/christensenmichael0/Design_an_AB_Test">
+                     <img src="img/ab-testing-blog.png" class="img-responsive" alt="A-B-Test-Image">
+                     </a>
+                     <div class="preview-panel-content">
+                        <h4>Design an A/B Test</h4>
+                        <p>Considered an actual A/B test that was run by Udacity. Selected, characterized, and validated metrics to evaluate a proposed change.
+                           Determined the number of samples needed and planned an appropriate duration for the experiment. Ultimately drew conclusions 
+                           and recommended whether or not to launch the change.
+                        </p>
+                        <ul class="list-inline project-buttons">
+                           <li>
+                              <a href="christensenmichael0.github.io/project-pdf/AB_Testing_Analysis.pdf" class="btn btn-default">
+                              <span class="analysis-button">Analysis
+                              </span>
+                              </a>
+                           </li>
+                        </ul>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <a name="contact"></a>
+      <footer>
+         <div class="footer-connect">
+         <div class="container">
+            <div class="row">
+               <div class="col-sm-12">
+                  <h2 class="text-center" id="connection">Connect with me</h2>
+               </div>
+               <div class="col-sm-12 text-center">
+                  <a href="mailto:christensenmichael0@gmail.com" class="btn btn-default btn-lg email-button">
+                  <i class="fa fa-envelope-o fa-fw"></i> 
+                  <span class="network-name"> email</span>
+                  </a>
+               </div>
+               <div class="final-text-chunk">
+                  <div class="row">
+                     <div class="col-sm-12">
+                        <p>
+                           This page was created and is maintained by <a href="https://christensenmichael0.github.io/">Michael Christensen</a>. <br>
+                           Credits: Inspiration and responsive design components from <a href="https://startbootstrap.com/" target="_blank" class="startbootstrap">Start Boostrap</a>
+                        </p>
+                        <p>Copyright &copy; christensenmichael0.github.io All Rights Reserved</p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </footer>
+   </body>
 </html>
