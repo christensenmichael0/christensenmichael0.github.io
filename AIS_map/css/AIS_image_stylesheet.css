@@ -1,0 +1,14 @@
+body,
+html {
+    width: 100%;
+    background-color: white;
+}
+.row {
+    margin: 0;
+}
+
+#ais-img {
+     width: 100%;
+     height: auto;
+}
+
