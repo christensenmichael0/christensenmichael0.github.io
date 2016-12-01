@@ -1,0 +1,13 @@
+body,
+html {
+    width: 100%;
+    background-color: white;
+}
+.row {
+    margin: 0;
+}
+
+.responsive-video {
+width: 100%;
+height: auto;
+}
