@@ -37,8 +37,8 @@ a {
 #intro-divider {
     border-top: 2px solid black;
 }
-#skills-break {
-    height: 10px;
+.skills-break {
+    height: 15px;
 }
 .section_name {
     font-size: 2.7rem;
