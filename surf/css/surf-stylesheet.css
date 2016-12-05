@@ -184,3 +184,9 @@ max-height: 500px;
 border: 1px solid #AAA; 
 margin: 50px auto
 }
+
+li {
+font-size: 1.5rem;
+padding: 10px;
+}
+
