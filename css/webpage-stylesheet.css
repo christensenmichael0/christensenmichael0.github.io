@@ -22,10 +22,14 @@ nav.custom-nav {
     margin-right: 0;
     margin-left: 0;
 }
+
 header {
-    background: url("https://christensenmichael0.github.io/img/boat_hull.JPG") no-repeat left bottom;
+    background-image: url("http://christensen-michael.com/img/boat_hull-2000super-large.jpg"); 
+    background-repeat: no-repeat;
+    background-size: left bottom;
     background-size: cover;
 }
+
 .intro-header-block {
     color: black;
     text-align: center;
@@ -77,6 +81,13 @@ hr.intro-divider {
     margin-top: 0;
     margin-bottom: 20px;
 }
+
+.my-img-responsive {
+width: 100%;
+height: auto;
+margin: auto;
+}
+
 .preview-panel-content {
     margin-bottom: 25px;
 }
