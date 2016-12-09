@@ -24,10 +24,8 @@ nav.custom-nav {
 }
 
 header {
-    background-image: url("http://christensen-michael.com/img/boat_hull-2000super-large.jpg"); 
-    background-repeat: no-repeat;
-    background-size: center bottom;
-    background-size: cover;
+background: url("https://github.com/christensenmichael0/christensenmichael0.github.io/blob/master/img/boat_hull.JPG?raw=true") no-repeat left bottom;
+background-size: cover;
 }
 
 .intro-header-block {
@@ -38,8 +36,8 @@ header {
     /*background: url("https://github.com/christensenmichael0/christensenmichael0.github.io/blob/master/img/boat_hull.JPG?raw=true") no-repeat center bottom;*/
     /*background-size: cover;*/
     
-    padding: 100px 0 20px;
-    height: 100vh;
+    padding: 100px 0;
+    min-height: 600px;
 }
 
 .personal-box {
