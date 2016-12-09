@@ -24,9 +24,9 @@ nav.custom-nav {
 }
 
 header {
-    background-image: url("http://christensen-michael.com/img/boat_hull-1200large.jpg"); 
+    background-image: url("http://christensen-michael.com/img/boat_hull-2000super-large.jpg"); 
     background-repeat: no-repeat;
-    background-size: center center;
+    background-size: left bottom;
     background-size: cover;
 }
 
