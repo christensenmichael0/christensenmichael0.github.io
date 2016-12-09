@@ -41,6 +41,13 @@ header {
     padding: 100px 0;
     min-height: 600px;
 }
+
+@media and screen (min-width: 1100px) {
+.intro-header-block {
+min-height: 800px;
+}
+}
+
 .personal-box {
     margin: auto;
 }
