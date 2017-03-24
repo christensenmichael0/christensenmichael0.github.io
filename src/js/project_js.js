@@ -4,7 +4,7 @@ var Projects = {
 		url: 'https://github.com/christensenmichael0/Titantic_Data_Analysis',
 		image_src: 'dist/img/titanic-sinking-400small.jpg',
 		description: "Went through the entire data analysis process, starting by posing a question and finished by sharing findings. Used vectorized operations in NumPy and Pandas to speed up data analysis code.",
-		analysis_src: "https://christensenmichael0.github.io/project-pdf/Titanic_Analysis.pdf",
+		analysis_src: "https://christensenmichael0.github.io/dist/project-pdf/Titanic_Analysis.pdf",
 		code_src: "https://github.com/christensenmichael0/Titantic_Data_Analysis/blob/master/project_two.py"
 	},
 	{
@@ -12,7 +12,7 @@ var Projects = {
 		url: 'https://github.com/christensenmichael0/Open_Street_Map_Data_Wrangling',
 		image_src: "dist/img/osm-400small.jpg",
 		description: 'Utilized data munging techniques to clean OpenStreetMap data for Syracuse, New York. This entailed assessing the quality of the data for validity, accuracy, completeness, consistency and uniformity.',
-		analysis_src: "https://christensenmichael0.github.io/project-pdf/OSM_Wrangling.pdf",
+		analysis_src: "https://christensenmichael0.github.io/dist/project-pdf/OSM_Wrangling.pdf",
 		code_src: "https://github.com/christensenmichael0/Open_Street_Map_Data_Wrangling/blob/master/syracuse_new_york_osm_project.py"
 	},
 	{
@@ -23,7 +23,7 @@ var Projects = {
 		"<a href='https://github.com/christensenmichael0/Exploratory-Data-Analysis-with-R/blob/master/wineQualityReds.csv' download target='_blank'>" +
 		"red wine dataset</a> for distributions, outliers, and anomalies. Determined the "+ 
 		"relationships in one variable to multiple variables. Created polished graphics using ggplot2 package.",
-		analysis_src: "https://christensenmichael0.github.io/project-pdf/Red_Wine_Analysis.pdf",
+		analysis_src: "https://christensenmichael0.github.io/dist/project-pdf/Red_Wine_Analysis.pdf",
 		code_src: "https://github.com/christensenmichael0/Exploratory-Data-Analysis-with-R/blob/master/Project_4.Rmd"
 	},
 	{
@@ -36,7 +36,7 @@ var Projects = {
 		"feature scaling and text mining techniques. Made use of recursive feature selection " +
         "and model parameter tuning using exhaustive grid search. Ultimately applied cross-validation " +
 		"operations on testing data to validate model performance metrics.",
-		analysis_src: "https://christensenmichael0.github.io/project-pdf/Enron_Analysis.pdf",
+		analysis_src: "https://christensenmichael0.github.io/dist/project-pdf/Enron_Analysis.pdf",
 		code_src: "https://github.com/christensenmichael0/Machine_Learning_Through_Enron_Fraud/blob/master/poi_id.py"
 	},
 	{
@@ -47,7 +47,7 @@ var Projects = {
 		"Visualized </a>the incidence of impaired driving death rate by US state using D3.js. " +
 		"Chose optimal visual elements to encode data and increase its effectiveness. Incorporated " + 
 		"interactive elements to engage the audience.",
-		analysis_src: "https://christensenmichael0.github.io/project-pdf/Impaired_Driving_Analysis.pdf",
+		analysis_src: "https://christensenmichael0.github.io/dist/project-pdf/Impaired_Driving_Analysis.pdf",
 		code_src: "https://github.com/christensenmichael0/Data_Visualization_with_d3.js/blob/master/index.html"
 	},
 	{
@@ -58,7 +58,7 @@ var Projects = {
 		"and validated metrics to evaluate a proposed change. Determined the number of samples needed " +
 		"and planned an appropriate duration for the experiment. Ultimately drew conclusions and recommended " +
 		"whether or not to launch the change.",
-		analysis_src: "https://christensenmichael0.github.io/project-pdf/AB_Testing_Analysis.pdf",
+		analysis_src: "https://christensenmichael0.github.io/dist/project-pdf/AB_Testing_Analysis.pdf",
 		code_src: "https://github.com/christensenmichael0/Design_an_AB_Test"
 	}
 	],
