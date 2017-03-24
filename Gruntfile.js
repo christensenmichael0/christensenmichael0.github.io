@@ -37,6 +37,12 @@ module.exports = function(grunt) {
                         cwd: 'src/surf/maps',
                         src: ['**'],
                         dest: 'dist/surf/maps'
+                    },
+                    {
+                        expand: true,
+                        cwd: 'src/animation',
+                        src: ['**'],
+                        dest: 'dist/animation'
                     }
 
 
