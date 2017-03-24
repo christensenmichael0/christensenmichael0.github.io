@@ -137,7 +137,7 @@ var Projects = {
 		image_src: 'dist/img/AIS_image-400small.jpg',
 		description: "Using Python: parse, filter, sort, and group 16 hours (233,604 records) worth of " +
 		"satellite-AIS data in the Gulf of Mexico. Extract the number of passenger, cargo, and tanker " +
-		"vessels underway and <a href='https://christensenmichael0.github.io/AIS_map/' target='_blank'> " +
+		"vessels underway and <a href='https://christensenmichael0.github.io/dist/AIS_map/' target='_blank'> " +
 		"visualize </a> their routes. This work is serving as a feasibility study for the development of " +
 		"a new product line leveraging data and software tools from both Horizon Marine and Collecte " +
 		"Localisation Satellites (CLS)." ,
@@ -150,7 +150,7 @@ var Projects = {
 		image_src: 'dist/img/rig_tow-400small.jpg',
 		description: "Utilized various Python packages including NumPy and MatplotLib Basemap to develop " +
 		"a high-quality optimal routing " +
-		"<a href='https://christensenmichael0.github.io/animation/' target='_blank'>animation</a> " + 
+		"<a href='https://christensenmichael0.github.io/dist/animation/' target='_blank'>animation</a> " + 
 		"to serve as a marketing tool for Horizon Marine's vessel routing service " +
 		" <a id='hmi-ref' href='http://www.horizonmarine.com/routewatch.html' target='_blank'>" +
 		"(RouteWatch)</a>.",
