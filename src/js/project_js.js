@@ -20,7 +20,7 @@ var Projects = {
 		url: 'https://github.com/christensenmichael0/Exploratory-Data-Analysis-with-R',
 		image_src: "dist/img/redwine-400small.jpg",
 		description: "Used R and apply exploratory data analysis techniques to explore the " + 
-		"<a href='https://github.com/christensenmichael0/Exploratory-Data-Analysis-with-R/blob/master/wineQualityReds.csv' download target='_blank'>" +
+		"<a href='https://raw.githubusercontent.com/christensenmichael0/Exploratory-Data-Analysis-with-R/master/wineQualityReds.csv' download target='_blank'>" +
 		"red wine dataset</a> for distributions, outliers, and anomalies. Determined the "+ 
 		"relationships in one variable to multiple variables. Created polished graphics using ggplot2 package.",
 		analysis_src: "https://christensenmichael0.github.io/dist/project-pdf/Red_Wine_Analysis.pdf",
@@ -31,7 +31,7 @@ var Projects = {
 		url: 'https://github.com/christensenmichael0/Machine_Learning_Through_Enron_Fraud',
 		image_src: "dist/img/Enron-400small.jpg",
 		description: "Utilized Python's scikit-learn library to deploy supervised Machine " +
-		"Learning Algorithms on the <a href='https://github.com/christensenmichael0/Machine_Learning_Through_Enron_Fraud/blob/master/my_dataset.pkl' download>" +
+		"Learning Algorithms on the <a href='https://raw.githubusercontent.com/christensenmichael0/Machine_Learning_Through_Enron_Fraud/master/my_dataset.pkl' download>" +
 		"Enron financial and email dataset</a> to identify persons of interest. Implemented " +
 		"feature scaling and text mining techniques. Made use of recursive feature selection " +
         "and model parameter tuning using exhaustive grid search. Ultimately applied cross-validation " +
