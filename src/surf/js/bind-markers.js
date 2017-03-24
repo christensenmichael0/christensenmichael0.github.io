@@ -4,7 +4,7 @@
   
   
   var buoyIcon = L.icon({
-    iconUrl: "https://christensenmichael0.github.io/dist/surf/img/buoy-marker3-42small.png",
+    iconUrl: "christensenmichael0.github.io/dist/surf/img/buoy_marker3-42small.png",
     iconSize:     [55, 55], // size of the icon
     iconAnchor:   [27, 41], // point of the icon which will correspond to marker's location
     popupAnchor:  [-5, -30] // point from which the popup should open relative to the iconAnchor
