@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <!-- Load Leaflet from CDN-->
+      <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.2/dist/leaflet.css" />
+      <script src="https://unpkg.com/leaflet@1.0.2/dist/leaflet-src.js"></script>
+      <!-- Load Esri Leaflet from CDN -->
+      <script src="https://unpkg.com/esri-leaflet@2.0.6"></script>
+      <!-- Bootstrap Core CSS -->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+      <!-- Custom CSS -->
+      <link href="css/surf-stylesheet.css" rel="stylesheet">
+      <!-- ROBOTO FONT -->
+      <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+      <!-- Google Analytics -->
+      <title>Cape Cod Surf Links</title>
+      <script>
+         (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+         (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+         m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+         })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+         
+         ga('create', 'UA-88608973-1', 'auto');
+         ga('send', 'pageview');
+         
+      </script>
+   </head>
+   <body>
+      <!-- Navigation -->
+      <nav class="navbar navbar-inverse navbar-fixed-top custom-nav" role="navigation">
+         <div class="container">
+            <div class="navbar-header page-scroll">
+               <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mynav">
+               <span class="sr-only">Toggle navigation</span>
+               <span class="icon-bar"></span>
+               <span class="icon-bar"></span>
+               <span class="icon-bar"></span>
+               </button>
+               <a class="navbar-brand page-scroll" href="https://christensenmichael0.github.io">christensen-michael.com</a>
+            </div>
+            <div class="collapse navbar-collapse" id="mynav">
+               <ul class="nav navbar-nav navbar-right">
+                  <li>
+                     <a class="page-scroll" href="#slides">Slides</a>
+                  </li>
+                  <li>
+                     <a class="page-scroll" href="#surf-links">Surf Links</a>
+                  </li>
+                  <li>
+                     <a class="page-scroll" href="#buoy-data">Buoy Data</a>
+                  </li>
+               </ul>
+            </div>
+         </div>
+      </nav>
+      <a name="slides"></a>
+      <div class="slideshow-container">
+         <div class="mySlides fade1">
+            <div class="numbertext">1 / 6</div>
+            <img src="img/surf1-400small.JPG" srcset="img/surf1-400small.JPG 400w,
+               img/surf1-800medium.JPG 800w" alt="Surf-Image"/>
+            <div class="text">Bali, Indonesia</div>
+         </div>
+         <div class="mySlides fade1">
+            <div class="numbertext">2 / 6</div>
+            <img src="img/surf2-400small.JPG" srcset="img/surf2-400small.JPG 400w,
+               img/surf2-800medium.JPG 800w" alt="Surf-Image"/>
+            <div class="text">Bali, Indonesia</div>
+         </div>
+         <div class="mySlides fade1">
+            <div class="numbertext">3 / 6</div>
+            <img src="img/surf3-400small.JPG" srcset="img/surf3-400small.JPG 400w,
+               img/surf3-800medium.JPG 800w" alt="Surf-Image"/>
+            <div class="text">Bali, Indonesia</div>
+         </div>
+         <div class="mySlides fade1">
+            <div class="numbertext">4 / 6</div>
+            <img src="img/surf4-400small.JPG" srcset="img/surf4-400small.JPG 400w,
+               img/surf4-800medium.JPG 800w" alt="Surf-Image"/>
+            <div class="text">Bali, Indonesia</div>
+         </div>
+         <div class="mySlides fade1">
+            <div class="numbertext">5 / 6</div>
+            <img src="img/surf5-400small.JPG" srcset="img/surf5-400small.JPG 400w,
+               img/surf5-800medium.JPG 800w" alt="Surf-Image"/>
+            <div class="text">Bali, Indonesia</div>
+         </div>
+         <div class="mySlides fade1">
+            <div class="numbertext">6 / 6</div>
+            <img src="img/surf6-400small.JPG" srcset="img/surf6-400small.JPG 400w,
+               img/surf6-800medium.JPG 800w" alt="Surf-Image"/>
+            <div class="text">Bali, Indonesia</div>
+         </div>
+         <a class="prev" onclick="plusSlides(-1)">❮</a>
+         <a class="next" onclick="plusSlides(1)">❯</a>
+      </div>
+      <!--<br /> insert a blank 5px div-->
+      <div class="blank-break"></div>
+      <div style="text-align:center">
+         <span class="dot" onclick="currentSlide(1)"></span> 
+         <span class="dot" onclick="currentSlide(2)"></span> 
+         <span class="dot" onclick="currentSlide(3)"></span> 
+         <span class="dot" onclick="currentSlide(4)"></span> 
+         <span class="dot" onclick="currentSlide(5)"></span> 
+         <span class="dot" onclick="currentSlide(6)"></span> 
+      </div>
+      <a name="surf-links"></a>
+      <div class="row text-center">
+         <h2 id="link-heading">Useful Surf Links</h2>
+      </div>
+      <div class="container" id="links-menu">
+         <div class="row">
+            <div class="col-sm-offset-3 col-sm-6 text-center">
+               <button class="accordion">Surf Websites</button>
+               <div class="panel">
+                  <ul class="text-left">
+                     <li class="link-li"><a href="http://www.swellinfo.com/surf-forecast/cape-cod-massachusetts" target="_blank">Swellinfo - Cape Cod</a></li>
+                     <li class="link-li"><a href="http://magicseaweed.com/Cape-Cod-Surf-Report/373/" target="_blank">Magicseaweed - Cape Cod</a></li>
+                     <li class="link-li"><a href="http://www.surfline.com/surf-report/cape-cod-new-england_5115" target="_blank">Surfline - Cape Cod</a></li>
+                  </ul>
+               </div>
+               <button class="accordion">Surf Cams</button>
+               <div class="panel">
+                  <ul class="text-left">
+                     <li class="link-li"><a href=" http://www.thebeachcomber.com/index.php/webcams/live-beach-cam" target="_blank">Wellfleet - Cahoon Hollow</a></li>
+                     <li class="link-li"><a href="http://www.morebeach.com/cam/last10" target="_blank">Eastham - Coast Guard</a></li>
+                     <li class="link-li"><a href="http://www.nausetbeach.org/" target="_blank">Orleans - Nauset</a></li>
+                  </ul>
+               </div>
+               <button class="accordion">Weather & Models</button>
+               <div class="panel">
+                  <ul class="text-left">
+                  <li class="link-li"><a href="http://marine.weather.gov/MapClick.php?x=319&y=177&site=box&zmx=&zmy=&map_x=319&map_y=177#.WEN1ILIrLIU" target="_blank">NWS - Marine Zone Forecast</a></li>
+                  <li class="link-li"><a href="http://polar.ncep.noaa.gov/waves/viewer.shtml?-multi_1-latest-hs-N_atlantic-" target="_blank">NWW3 - North Atlantic</a></li>
+                  <li class="link-li"><a href="http://polar.ncep.noaa.gov/waves/viewer.shtml?-gwes-latest-atlantic-hs-" target="_blank">NCEP GWES - Atlantic</a></li>
+                  <li class="link-li"><a href="https://www.wunderground.com/hurricane" target="_blank">Tropical Forecast - Wunderground</a></li>
+                  <li class="link-li"><a href="https://weather.com/weather/today/l/Wellfleet+MA+USMA0448:1:US" target="_blank">Weather.com - Wellfleet</a></li>
+                  <li class="link-li"><a href="https://weather.com/weather/today/l/North+Truro+MA+02652:4:US" target="_blank">Weather.com - Truro</a></li>
+               </div>
+            </div>
+         </div>
+      </div>
+      <script>
+         var acc = document.getElementsByClassName("accordion");
+         var i;
+         
+         for (i = 0; i < acc.length; i++) {
+             acc[i].onclick = function(){
+                 this.classList.toggle("active");
+                 this.nextElementSibling.classList.toggle("show");
+           }
+         }
+      </script>
+      <a name="buoy-data"></a>
+      <div id="map"></div>
+      <!-- Load Markers JSON -->
+      <script type='text/javascript' src='maps/markers.json'></script>
+      <!-- Load JQuery-->
+      <script src="https://unpkg.com/jquery@3.1.1"></script>
+      <!-- Load Bootstrap JS-->
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+      <!-- Bind Markers JS-->
+      <script src='js/bind-markers.js'></script>
+      <!-- Load Animation JS-->
+      <script src="js/surf-script.js"></script>
+   </body>
+</html>

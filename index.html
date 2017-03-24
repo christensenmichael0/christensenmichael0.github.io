@@ -1,370 +1,329 @@
 <!DOCTYPE html>
 <html lang="en">
-   <head>
-      <meta charset="utf-8">
-      <meta http-equiv="X-UA-Compatible" content="IE=edge">
-      <meta name="viewport" content="width=device-width, initial-scale=1">
-      <meta name="description" content="">
-      <meta name="author" content="">
-      <title>Michael Christensen
-      </title>
-      <!-- Bootstrap Core CSS -->
-      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-      <!-- Custom CSS -->
-      <link href="css/webpage-stylesheet.css" rel="stylesheet">
-      <!-- Custom Fonts -->
-      <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-	  <!-- Icon Fonts -->
-	  <!--<link rel="stylesheet" href="http://weloveiconfonts.com/api/?family=zocial" />-->
-      
-	  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-      <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-      <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-      <![endif]-->
-      <!-- Google Analytics -->
-      <script>
-         (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-         (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-         m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-         })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-         
-         ga('create', 'UA-88608973-1', 'auto');
-         ga('send', 'pageview');
-         
-      </script>
-   </head>
-   <body>
-      <!-- Navigation -->
-      <nav class="navbar navbar-inverse navbar-fixed-top custom-nav" role="navigation">
-         <div class="container">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Michael Christensen
+    </title>
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!-- Custom CSS -->
+    <link href="dist/css/webpage-stylesheet.css" rel="stylesheet">
+    <!-- Custom Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <!-- Icon Fonts -->
+    <link rel="stylesheet" href="http://weloveiconfonts.com/api/?family=fontawesome" />
+
+    <!-- Google Analytics -->
+    <script>
+        (function(i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function() {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+            a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-88608973-1', 'auto');
+        ga('send', 'pageview');
+    </script>
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-fixed-top custom-nav" role="navigation">
+        <div class="container">
             <div class="navbar-header page-scroll">
-               <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mynav">
-               <span class="sr-only">Toggle navigation</span>
-               <span class="icon-bar"></span>
-               <span class="icon-bar"></span>
-               <span class="icon-bar"></span>
-               </button>
-               <a class="navbar-brand page-scroll" href="#home">christensen-michael.com</a>
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mynav">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand page-scroll" href="#home">christensen-michael.com</a>
             </div>
             <div class="collapse navbar-collapse" id="mynav">
-               <ul class="nav navbar-nav navbar-right">
-                  <li>
-                     <a class="page-scroll" href="#about">About</a>
-                  </li>
-                  <li>
-                     <a class="page-scroll" href="#portfolio">Portfolio</a>
-                  </li>
-                  <li>
-                     <a href="https://christensenmichael0.github.io/surf">Surfing</a>
-                  </li>
-                  <li>
-                     <a class="page-scroll" href="#contact">Contact</a>
-                  </li>
-               </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a class="page-scroll" href="#about">About</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li>
+                        <a href="https://christensenmichael0.github.io/surf">Surfing</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#contact">Contact</a>
+                    </li>
+                </ul>
             </div>
-         </div>
-      </nav>
-      <a name="home"></a>
-      <header>
-         <div class="container intro-header-block">
+        </div>
+    </nav>
+    <a name="home"></a>
+    <header>
+        <div class="container intro-header-block">
             <div class="row">
-               <div class="col-sm-12 text-center">
-                  <h1 id="me-brand">Michael K. Christensen</h1>
-                  <h2 id="me-heading">Analyst/Developer</h2>
-               </div>
+                <div class="col-sm-12 text-center">
+                    <h1 id="me-brand">Michael K. Christensen</h1>
+                    <h2 id="me-heading">Analyst/Developer</h2>
+                </div>
             </div>
             <ul class="list-inline intro-social-buttons">
-               <li>
-                  <a href="https://christensenmichael0.github.io/resume/" class="btn btn-default btn-lg">
-                  <span class="network-name">resume
+                <li>
+                    <a href="dist/resume/index.html" class="btn btn-default btn-lg">
+                        <span class="network-name">resume
                   </span>
-                  </a>
-               </li>
-               <li>
-                  <a href="https://www.linkedin.com/in/christensenmichael0"target="_blank" class="btn btn-default btn-lg">
-                  <span class="network-name">linkedin
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/in/christensenmichael0" target="_blank" class="btn btn-default btn-lg">
+                        <span class="network-name">linkedin
                   </span>
-                  </a>
-               </li>
-               <li>
-                  <a href="https://github.com/christensenmichael0" target="_blank" class="btn btn-default btn-lg">
-                  <span class="network-name">github
+                    </a>
+                </li>
+                <li>
+                    <a href="https://github.com/christensenmichael0" target="_blank" class="btn btn-default btn-lg">
+                        <span class="network-name">github
                   </span>
-                  </a>
-               </li>
+                    </a>
+                </li>
             </ul>
             <a name="about"></a>
-         </div>
-      </header>
-      <section class="intro about-me">
-         <div class="container">
+        </div>
+    </header>
+    <section class="intro about-me">
+        <div class="container">
             <div class="row">
-               <div class="col-sm-12">
-                  <h2>About Me</h2>
-                  <p class="lead">
-                     I'm a tenacious learner and problem solver. My focus is on building robust, reusable, scalable, and optimized software solutions
-                     to solve business challenges. My strong quantitative background, advanced programming skills, and real-world experience
-                     provide me with the tools to approach and overcome obstacles efficiently and effectively.
-                  </p>
-               </div>
+                <div class="col-sm-12">
+                    <h2>About Me</h2>
+                    <p class="lead">
+                        I'm a tenacious learner and problem solver. My focus is on building robust, reusable, scalable, and optimized software solutions to solve business challenges. My strong quantitative background, advanced programming skills, and real-world experience provide me with the tools to approach and overcome obstacles efficiently and effectively.
+                    </p>
+                </div>
             </div>
-         </div>
-         <a name="portfolio"></a>
-      </section>
-      <div class="container">
-         <hr class="intro-divider">
-      </div>
-      <div class="container">
-         <div class="row">
+        </div>
+        <a name="portfolio"></a>
+    </section>
+    <div class="container">
+        <hr class="intro-divider">
+    </div>
+    <div class="container">
+        <div class="row">
             <div class="col-sm-12">
-               <h2 id="recent-tag">Recent Projects</h2>
+                <h2 id="recent-tag">Recent Projects</h2>
             </div>
-         </div>
-      </div>
-      <section class="projects">
-         <div class="container">
+        </div>
+    </div>
+
+    <a name="portfolio"></a>
+    <div class="container group-box">
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="group-header">Data Analyst Nanodegree</div>
+                <div class="group-descrip">Skills: Python, R, MongoDB, SQLite, D3</div>
+            </div>
+        </div>
+
+        <div class="hide-chunk">
             <div class="row">
-               <div class="col-sm-4">
-                  <div class="preview-panel">
-                     <a href="https://github.com/christensenmichael0/Titantic_Data_Analysis">
-                     <img src="img/titanic-sinking-400small.jpg" sizes="(max-width: 767px) 100vw, 33vw" srcset="img/titanic-sinking-400small.jpg 400w,
-                        img/titanic-sinking-800medium.jpg 624w" class="my-img-responsive" alt="Titanic-Image"/>
-                     </a>
-                     <div class="preview-panel-content">
-                        <h4>Investigate a dataset</h4>
-                        <p>Investigated the <a href="https://d17h27t6h515a5.cloudfront.net/topher/2016/September/57e9a84c_titanic-data/titanic-data.csv" download target="_blank">Titanic dataset</a> using NumPy and Pandas. 
-                           Went through the entire data analysis process, starting by posing a question and finished by sharing findings.
-                           Used vectorized operations in NumPy and Pandas to speed up data analysis code.
-                        </p>
-                        <ul class="list-inline project-buttons">
-                           <li>
-                              <a target="_blank" href="https://christensenmichael0.github.io/project-pdf/Titanic_Analysis.pdf" class="btn btn-default">
-                              <span class="analysis-button">Analysis
-                              </span>
-                              </a>
-                           </li>
-                           <li>
-                              <a href="https://github.com/christensenmichael0/Titantic_Data_Analysis/blob/master/project_two.py" target="_blank" class="btn btn-default">
-                              <span class="code-button">Code
-                              </span>
-                              </a>
-                           </li>
+                <div class="col-sm-6">
+
+                    <div class="listed-projects">
+                        <ul data-bind="foreach: dataProjectList">
+                            <li data-bind="text: name, click: $parent.setDataProject"></li>
                         </ul>
-                     </div>
-                  </div>
-                  <div class="preview-panel">
-                     <a href="/template-overviews/creative">
-                     <img src="img/osm-400small.jpg" sizes="(max-width: 767px) 100vw, 33vw" srcset="img/osm-400small.jpg 400w,
-                        img/osm-800medium.jpg 640w" class="my-img-responsive" alt="Openstreetmap-Image"/>
-                     </a>
-                     <div class="preview-panel-content">
-                        <h4>Wrangle OpenStreetMap data</h4>
-                        <p>Utilized data munging techniques to clean OpenStreetMap data for Syracuse, New York.
-                           This entailed assessing the quality of the data for validity, accuracy, completeness, 
-                           consistency and uniformity. 
-                        </p>
-                        <ul class="list-inline project-buttons">
-                           <li>
-                              <a target="_blank" href="https://christensenmichael0.github.io/project-pdf/OSM_Wrangling.pdf" class="btn btn-default">
-                              <span class="analysis-button">Analysis
-                              </span>
-                              </a>
-                           </li>
-                           <li>
-                              <a href="https://github.com/christensenmichael0/Open_Street_Map_Data_Wrangling/blob/master/syracuse_new_york_osm_project.py" target="_blank" class="btn btn-default">
-                              <span class="code-button">Code
-                              </span>
-                              </a>
-                           </li>
-                        </ul>
-                     </div>
-                  </div>
-                  <div class="preview-panel">
-                     <a href="https://github.com/christensenmichael0/RouteWatch">
-                     <img src="img/rig_tow-400small.jpg" sizes="(max-width: 767px) 100vw, 33vw" srcset="img/rig_tow-400small.jpg 400w,
-                        img/rig_tow-800medium.jpg 620w" class="my-img-responsive" alt="Routing-Image"/>
-                     </a>
-                     <div class="preview-panel-content">
-                        <h4>Build an optimal routing animation</h4>
-                        <p>Utilized various Python packages including NumPy and MatplotLib Basemap to develop
-                           a high-quality optimal routing <a href="https://christensenmichael0.github.io/animation/" target="_blank"> animation </a>to serve as a marketing tool for Horizon Marine's
-                           vessel routing service <a id="hmi-ref" href="http://www.horizonmarine.com/routewatch.html" target="_blank">(RouteWatch&reg;)</a>. 
-                        </p>
-                        <ul class="list-inline project-buttons">
-                           <li>
-                              <a href="https://github.com/christensenmichael0/RouteWatch/blob/master/RW_frame_generator.py" target="_blank" class="btn btn-default">
-                              <span class="analysis-button">Code
-                              </span>
-                              </a>
-                           </li>
-                        </ul>
-                     </div>
-                  </div>
-               </div>
-               <div class="col-sm-4">
-                  <div class="preview-panel">
-                     <a href="https://github.com/christensenmichael0/Exploratory-Data-Analysis-with-R">
-                     <img src="img/redwine-400small.jpg" sizes="(max-width: 767px) 100vw, 33vw" srcset="img/redwine-400small.jpg 400w,
-                        img/redwine-800medium.jpg 722w" class="my-img-responsive" alt="Red-Wine-Image"/>
-                     </a>
-                     <div class="preview-panel-content">
-                        <h4>Explore and summarize data</h4>
-                        <p>Used R and apply exploratory data analysis techniques to explore the <a href="https://github.com/christensenmichael0/Exploratory-Data-Analysis-with-R/blob/master/wineQualityReds.csv" download target="_blank">red wine dataset</a> for distributions, outliers, and anomalies.
-                           Determined the relationships in one variable to multiple variables. Created polished graphics using ggplot2 package.
-                        </p>
-                        <ul class="list-inline project-buttons">
-                           <li>
-                              <a target="_blank" href="https://christensenmichael0.github.io/project-pdf/Red_Wine_Analysis.pdf" class="btn btn-default">
-                              <span class="analysis-button">Analysis
-                              </span>
-                              </a>
-                           </li>
-                           <li>
-                              <a href="https://github.com/christensenmichael0/Exploratory-Data-Analysis-with-R/blob/master/Project_4.Rmd" target="_blank" class="btn btn-default">
-                              <span class="code-button">Code
-                              </span>
-                              </a>
-                           </li>
-                        </ul>
-                     </div>
-                  </div>
-                  <div class="preview-panel">
-                     <a href="https://github.com/christensenmichael0/Machine_Learning_Through_Enron_Fraud">
-                     <img src="img/Enron-400small.jpg" sizes="(max-width: 767px) 100vw, 33vw" srcset="img/Enron-400small.jpg 400w,
-                        img/Enron-800medium.jpg 456w" class="my-img-responsive" alt="Enron-Image"/>
-                     </a>
-                     <div class="preview-panel-content">
-                        <h4>Identify Fraud from Enron email</h4>
-                        <p>Utilized Python's scikit-learn library to deploy supervised Machine Learning Algorithms on the <a href="https://github.com/christensenmichael0/Machine_Learning_Through_Enron_Fraud/blob/master/my_dataset.pkl" download> Enron financial and email dataset</a> 
-                           to identify persons of interest. Implemented feature scaling and text mining techniques. Made use of recursive feature selection 
-                           and model parameter tuning using exhaustive grid search. Ultimately applied cross-validation operations on testing data to validate
-                           model performance metrics.
-                        </p>
-                        <ul class="list-inline project-buttons">
-                           <li>
-                              <a target="_blank" href="https://christensenmichael0.github.io/project-pdf/Enron_Analysis.pdf" class="btn btn-default">
-                              <span class="analysis-button">Analysis
-                              </span>
-                              </a>
-                           </li>
-                           <li>
-                              <a href="https://github.com/christensenmichael0/Machine_Learning_Through_Enron_Fraud/blob/master/poi_id.py" target="_blank" class="btn btn-default">
-                              <span class="code-button">Code
-                              </span>
-                              </a>
-                           </li>
-                        </ul>
-                     </div>
-                  </div>
-               </div>
-               <div class="col-sm-4">
-                  <div class="preview-panel">
-                     <a href="https://christensenmichael0.github.io/Data_Viz/" target="_blank">
-                     <img src="img/drunk-driving-400small.jpg" sizes="(max-width: 767px) 100vw, 33vw" srcset="img/drunk-driving-400small.jpg 400w,
-                        img/drunk-driving-800medium.jpg 620w" class="my-img-responsive" alt="Drunk-Driving-Image"/>
-                     </a>
-                     <div class="preview-panel-content">
-                        <h4>Make effective data visualization</h4>
-                        <p><a href="https://christensenmichael0.github.io/Data_Viz/" target="_blank"> Visualized </a>the incidence of impaired driving death rate by US state using D3.js. Chose optimal visual elements to 
-                           encode data and increase its effectiveness. Incorporated interactive elements to engage the audience.
-                        </p>
-                        <ul class="list-inline project-buttons">
-                           <li>
-                              <a target="_blank" href="https://christensenmichael0.github.io/project-pdf/Impaired_Driving_Analysis.pdf" class="btn btn-default">
-                              <span class="analysis-button">Analysis
-                              </span>
-                              </a>
-                           </li>
-                           <li>
-                              <a href="https://github.com/christensenmichael0/Data_Visualization_with_d3.js/blob/master/index_final.html" target="_blank" class="btn btn-default">
-                              <span class="code-button">Code
-                              </span>
-                              </a>
-                           </li>
-                        </ul>
-                     </div>
-                  </div>
-                  <div class="preview-panel">
-                     <a href="https://github.com/christensenmichael0/Design_an_AB_Test">
-                     <img src="img/ab-testing-blog-400small.png" sizes="(max-width: 767px) 100vw, 33vw" srcset="img/ab-testing-blog-400small.png 399w,
-                        img/ab-testing-blog-800medium.png 770w" class="my-img-responsive" alt="A-B-Test-Image"/>
-                     </a>
-                     <div class="preview-panel-content">
-                        <h4>Design an A/B Test</h4>
-                        <p>Considered an actual A/B test that was run by Udacity. Selected, characterized, and validated metrics to evaluate a proposed change.
-                           Determined the number of samples needed and planned an appropriate duration for the experiment. Ultimately drew conclusions 
-                           and recommended whether or not to launch the change.
-                        </p>
-                        <ul class="list-inline project-buttons">
-                           <li>
-                              <a href="https://christensenmichael0.github.io/project-pdf/AB_Testing_Analysis.pdf" target="_blank" class="btn btn-default">
-                              <span class="analysis-button">Analysis
-                              </span>
-                              </a>
-                           </li>
-                        </ul>
-                     </div>
-                  </div>
-                  <div class="preview-panel">
-                     <a href="https://github.com/christensenmichael0/RouteWatch">
-                     <img src="img/AIS_image-400small.jpg" sizes="(max-width: 767px) 100vw, 33vw" srcset="img/AIS_image-400small.jpg 400w,
-                        img/AIS_image-800medium.jpg 800w" class="my-img-responsive" alt="AIS-Image"/>
-                     </a>
-                     <div class="preview-panel-content">
-                        <h4>Determine the spatial and temporal resolution of SAT-AIS data in the Gulf of Mexico </h4>
-                        <p>Using Python: parse, filter, sort, and group 16 hours (233,604 records) worth of satellite-AIS data in the Gulf of Mexico.
-                           Extract the number of passenger, cargo, and tanker vessels underway and 
-                           <a href="https://christensenmichael0.github.io/AIS_map/" target="_blank"> visualize </a> their routes. This
-                           work is serving as a feasibility study for the development of a new product line leveraging data and software tools 
-                           from both Horizon Marine and Collecte Localisation Satellites (CLS). 
-                        </p>
-                        <ul class="list-inline project-buttons">
-                           <li>
-                              <a href="https://github.com/christensenmichael0/RouteWatch/blob/master/ais_cleaning_script.py" class="btn btn-default">
-                              <span class="analysis-button">Code
-                              </span>
-                              </a>
-                           </li>
-                        </ul>
-                     </div>
-                  </div>
-               </div>
+                    </div>
+                </div>
             </div>
-         </div>
-      </section>
-      <a name="contact"></a>
-      <footer>
-         <div class="footer-connect">
-         <div class="container">
+
+            <hr>
+
+            <div class="row individual-project" data-bind="with: currentDataProject()">
+                <div class="col-sm-6">
+                    <h4 id="project-title" data-bind="text: name"></h4>
+                    <img class="centered-and-cropped" width="300" height="200" alt="project image" data-bind="attr: {src: image_src}" />
+                </div>
+                <div class="col-sm-6 project-description">
+                    <p data-bind="html: description"></p>
+                    <!--text: description-->
+                    <ul class="list-inline project-buttons">
+                        <li>
+                            <a target="_blank" data-bind="attr: {href: analysis_src}" class="btn btn-default">
+                                <span class="analysis-button">Analysis
+                              </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a target="_blank" data-bind="attr: {href: code_src}" class="btn btn-default">
+                                <span class="code-button">Code
+                              </span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="menu-toggle"><span class="fontawesome-chevron-down"></span>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="container group-box">
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="group-header">Front End Web Development</div>
+                <div class="group-descrip">Skills: HTML5, CSS3 and JavaScript</div>
+            </div>
+        </div>
+
+
+        <div class="hide-chunk">
             <div class="row">
-               <div class="col-sm-12">
-                  <h2 class="text-center" id="connection">Connect with me</h2>
-               </div>
-               <div class="col-sm-12 text-center">
-                  <a href="mailto:christensenmichael0@gmail.com" class="btn btn-default btn-lg email-button">
-                  <span class="network-name">email</span>
-                  </a>
-               </div>
-               <div class="final-text-chunk">
-                  <div class="row">
-                     <div class="col-sm-12">
-                        <p>
-                           This page was created and is maintained by <a href="https://christensenmichael0.github.io/">Michael Christensen</a>. <br/>
-                           Credits: Inspiration and responsive design components from <a href="https://startbootstrap.com/" target="_blank" class="startbootstrap">Start Boostrap</a>
-                        </p>
-                        <p>Copyright &copy; christensen-michael.com All Rights Reserved</p>
-                     </div>
-                  </div>
-               </div>
+                <div class="col-sm-6">
+
+                    <div class="listed-projects">
+                        <ul data-bind="foreach: fendProjectList">
+                            <li data-bind="text: name, click: $parent.setFendProject"></li>
+                        </ul>
+                    </div>
+                </div>
             </div>
-         </div>
-      </footer>
-      <!-- Load JQuery-->
-      <script src="https://unpkg.com/jquery@3.1.1"></script>
-      <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>-->
-      <!-- Load Bootstrap JS-->
-      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-   </body>
+
+            <hr>
+
+            <div class="row individual-project" data-bind="with: currentFendProject()">
+                <div class="col-sm-6">
+                    <h4 id="project-title" data-bind="text: name"></h4>
+                    <img class="centered-and-cropped" width="300" height="200" alt="project image" data-bind="attr: {src: image_src}" />
+                </div>
+                <div class="col-sm-6 project-description">
+                    <p data-bind="html: description"></p>
+                    <ul class="list-inline project-buttons">
+                        <li>
+                            <a target="_blank" data-bind="attr: {href: code_src}" class="btn btn-default">
+                                <span class="code-button">Code
+                              </span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="menu-toggle"><span class="fontawesome-chevron-down"></span>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="container group-box">
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="group-header">Personal Work</div>
+                <div class="group-descrip">Skills: Data Visualization with Python</div>
+            </div>
+        </div>
+
+        <div class="hide-chunk">
+            <div class="row">
+                <div class="col-sm-6">
+
+                    <div class="listed-projects">
+                        <ul data-bind="foreach: personalProjectList">
+                            <li data-bind="text: name, click: $parent.setPersonalProject"></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <hr>
+
+            <div class="row individual-project" data-bind="with: currentPersonalProject()">
+                <div class="col-sm-6">
+                    <h4 id="project-title" data-bind="text: name"></h4>
+                    <img class="centered-and-cropped" width="300" height="200" alt="project image" data-bind="attr: {src: image_src}" />
+                </div>
+                <div class="col-sm-6 project-description">
+                    <p data-bind="html: description"></p>
+                    <ul class="list-inline project-buttons">
+                        <li>
+                            <a target="_blank" data-bind="attr: {href: code_src}" class="btn btn-default">
+                                <span class="code-button">Code
+                              </span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="menu-toggle"><span class="fontawesome-chevron-down"></span>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+    <a name="contact"></a>
+    <footer>
+        <div class="footer-connect">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <h2 class="text-center" id="connection">Connect with me</h2>
+                    </div>
+                    <div class="col-sm-12 text-center">
+                        <a href="mailto:christensenmichael0@gmail.com" class="btn btn-default btn-lg email-button">
+                            <span class="network-name">email</span>
+                        </a>
+                    </div>
+                    <div class="final-text-chunk">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <p>
+                                    This page was created and is maintained by <a href="https://christensenmichael0.github.io/">Michael Christensen</a>.
+                                    <br/> Credits: Inspiration and responsive design components from <a href="https://startbootstrap.com/" target="_blank" class="startbootstrap">Start Boostrap</a>
+                                </p>
+                                <p>Copyright &copy; christensen-michael.com All Rights Reserved</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Load Knockout.js -->
+    <script src='dist/js/knockout-3.4.0.js'></script>
+    <!-- Load Custom Project Script -->
+    <script src="dist/js/project_js.js"></script>
+    <!-- Load JQuery-->
+    <script src="https://unpkg.com/jquery@3.1.1"></script>
+    <!-- Load Custom Slide -->
+    <script src="dist/js/menu_slide.js"></script>
+    <!-- Load Bootstrap JS-->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+
 </html>

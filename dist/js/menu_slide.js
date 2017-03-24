@@ -1,0 +1,1 @@
+function main(){$(".menu-toggle").on("click",function(){$(this).parent().parent().prev().slideToggle(400),$(this)[0].innerHTML.includes("down")?$(this).html('<span class="fontawesome-chevron-up"></span>'):$(this).html('<span class="fontawesome-chevron-down"></span>')})}$(document).ready(main);
