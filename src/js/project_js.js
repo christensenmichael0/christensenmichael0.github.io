@@ -113,11 +113,22 @@ var Projects = {
 		image_src: "dist/img/meetup-400small.jpg",
 		description: "Developed a single-page mapping "+ 
 		"<a href='https://christensenmichael0.github.io/Neighborhood_Map' target='_blank'>application </a>" +
-		"using Knockout JS featuring exercise meetups in and around Boston, Massachusetts. Built-in " +
+		"using Knockout.js featuring exercise meetups in and around Boston, Massachusetts. Built-in " +
 		"functionalities include a search box and sliders to filter meetups by " +
 		"date and distance from the center of the city. The Meetup API provides data to " +
 		"the application.",
 		code_src: "https://github.com/christensenmichael0/Neighborhood_Map"
+	},
+	{
+		name: 'Nutrition Tracking Application',
+		url: 'https://github.com/christensenmichael0/Healthtracker_App',
+		image_src: "dist/img/nutrition-400small.jpg",
+		description: "Developed a single-page calorie and fat tracking "+ 
+		"<a href='https://christensenmichael0.github.io/Healthtracker_App' target='_blank'>application </a>" +
+		"using Backbone.js, JQuery, and the Nutritionix API. The user is able to  " +
+		"search for food they ate and add items to a list by clicking on them. " +
+		"Other functionalities include the ability to remove food items and reset the entire list.",
+		code_src: "https://github.com/christensenmichael0/Healthtracker_App"
 	},
 	{
 		name: 'Feed Reader Testing',
