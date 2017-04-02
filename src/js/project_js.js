@@ -124,7 +124,7 @@ var Projects = {
 		url: 'https://github.com/christensenmichael0/Healthtracker_App',
 		image_src: "dist/img/nutrition-400small.jpg",
 		description: "Developed a single-page calorie and fat tracking "+ 
-		"<a href='https://christensenmichael0.github.io/Healthtracker_App' target='_blank'>application </a>" +
+		"<a href='https://christensenmichael0.github.io/Healthtracker_App' target='_blank'>application</a> " +
 		"using Backbone.js, JQuery, and the Nutritionix API. The user is able to  " +
 		"search for food they ate and add items to a list by clicking on them. " +
 		"Other functionalities include the ability to remove food items and reset the entire list.",
